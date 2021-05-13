@@ -1,7 +1,7 @@
 # MobileAppProgramming_Study
 ## 2021-1학기 모앱프 실습 프로젝트 모음 - Java
 ---
-### - Project4_1 : 초간단 계산기
+### - Project4_1 : 초간단 계산기 - 과제2
 ####   텍스트뷰, 에디트텍스트, 버튼
 ### - PetImage : (= Project4_2) 애완동물 사진 보기 
 ####   체크박스, 이미지뷰, 라디오 버튼 그룹, visible/invisible
