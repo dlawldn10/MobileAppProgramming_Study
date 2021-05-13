@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/HomepageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이트 홈페이지 열기"
+        android:backgroundTint="#6A6A6A"/>
+
+    <Button
+        android:id="@+id/CallBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="911 응급전화 걸기"
+        android:backgroundTint="#4CAF50"/>
+
+    <Button
+        android:id="@+id/GalleryBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="갤러리 열기"
+        android:backgroundTint="#ff0000"/>
+
+    <Button
+        android:id="@+id/FinishBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="끝내기"
+        android:backgroundTint="#FFEB3B"/>
+</LinearLayout>
