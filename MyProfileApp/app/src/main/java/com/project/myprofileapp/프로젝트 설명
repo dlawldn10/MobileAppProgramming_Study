@@ -1,0 +1,80 @@
+
+
+
+모바일앱프로그래밍 화34
+디지털미디어학과 2018111288 4학년 임지우
+
+//
+
+<프로젝트 설명>
+
+간단 마이페이지를 구현하였습니다.
+
+1. MainActivity에서 메인 타이틀 밑의 동그란 버튼을 누르면 PhotoViewerActivity로 넘어갑니다.
+
+2. PhotoViewerActivity에서 원하는 사진을 선택하고 '완료' 버튼을 누르면 메인 페이지에서 적용된 것을 확인할 수 있습니다.
+
+3. 밑의 editText들에 기타 정보를 수정할 수 있습니다.(단 변경사항은 내장메모리에 저장되지는 않습니다.)
+
+4. url옆의 '바로가기'버튼을 통해 WebViewActivity로 넘어갑니다.
+
+5. WebViewActivity에서는 해당 url의 웹뷰를 출력합니다. 하단의 돌아가기 버튼으로 메인 화면으로 돌아갑니다.
+
+6. 주소 옆의 '검색' 버튼을 누르면 GoogleMapActivity로 넘어갑니다.
+
+7. 입력되어있던 주소에 해당하는 위치에 마커가 생성되며 카메라가 줌인 됩니다. 돌아가기 버튼으로 메인화면으로 넘어갑니다.
+
+8. MainActivity 가장 하단의 '그림으로 나를 표현하기' 버튼을 누르면 PaintActivity로 넘어갑니다.
+
+9. PaintActivity에서 간단 그림판을 통해 3가지 색상과 3가지 도형들을 이용한 그림을 그려볼 수 있습니다.
+
+//
+
+<각 챕터별 반영사항>
+
+5장 레이아웃 :
+LinearLayout, RelativeLayout 등을 모든 xml마다 적절히 사용.
+
+6장 고급 위젯:
+WebViewActivity - 간단 웹브라우저 구현.
+
+7장 메뉴와 대화상자:
+곳곳에 토스트 메세지 구현.
+PaintActivity - 그림판 우측 상단에 옵션 메뉴 구현.
+
+8장 파일처리:
+MainActivity - 기본 초기 정보를 내장메모리에서 불러오기 구현.
+PhotoViewerActivity - 외장메모리에 저장된 사진들을 불러오는 기능 구현.
+
+9장 그래픽과 이미지:
+PaintActivity - 간단 그림판 기능 구현.
+
+10장 액티비티와 인텐트:
+모든 액티비티마다 구현.
+
+13장 멀티미디어와 구글지도:
+MainActivity -> GoogleMapActivity에서 구글지도 마커로 해당 위치 표기 기능 구현.
+
+//
+
+<사용된 파일: 내장메모리>  path: /data/data/com.project.myprofileapp/files/
+
+name.txt
+email.txt
+phone.txt
+url.txt
+address.txt
+
+//
+
+<사용된 파일: 외장메모리> path: /storage/emulated/0/Pictures/
+
+pic1.jpg
+pic2.jpg
+pic3.jpg
+pic4.jpg
+pic5.jpg
+pic6.jpg
+pic7.jpg
+
+//
